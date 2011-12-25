@@ -1,4 +1,3 @@
-//
 private var originalPos : Vector3;
 
 function Start() {
