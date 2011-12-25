@@ -47,6 +47,7 @@
      <Compile Include="Assets\ClipObject.js" />
      <Compile Include="Assets\MoveIt.js" />
      <Compile Include="Assets\clipPlane.js" />
+     <None Include="Assets\newtest_pkarlsson.txt.txt" />
      <None Include="Assets\iPhone Standard Assets\Additive-Projector\Guidelines.txt" />
      <None Include="Assets\iPhone Standard Assets\iPhone Shaders\Particle Shaders\iPhone Multiply Culled.shader" />
      <None Include="Assets\iPhone Standard Assets\iPhone Shaders\iPhone Background.shader" />

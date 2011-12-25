@@ -209,11 +209,12 @@ public class BBBasicTouchManipulation : BBSimpleTouchableObject {
 			//Calculate the quotient from the touches of the last frame from the current; if distQuote>1 zooming
 			//float distMove = (distNow/distThen-1)*Mathf.Sqrt(zDistanceFromCamera);
 			float distMove= (distNow/distThen - 1)/(-pivot.transform.position.z*2)/speed*6;
-		
+		print(distMove);
 			pivot.transform.Translate(-Vector3.forward*distMove,Space.World);
 			
 			if (pivot.transform.position.z>maxDist||pivot.transform.position.z<minDist)
 			{pivot.transform.Translate(Vector3.forward*distMove,Space.World);}
+			
 		}
 		
 		if (allowTwoFingerRotate) {

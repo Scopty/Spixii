@@ -59,3 +59,10 @@ Assembly-UnityScript-firstpass-vs.unityproj
 Assembly-UnityScript-firstpass.pidb
 Assembly-UnityScript-firstpass.unityproj
 *.suo
+*.obj
+*.mat
+*.jpg
+*.jpeg
+*.bmp
+*.png
+*.tif

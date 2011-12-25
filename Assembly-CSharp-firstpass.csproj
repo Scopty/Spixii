@@ -80,6 +80,7 @@
      <Compile Include="Assets\Plugins\uniTUIOCE\utilities\BBNotificationServer.cs" />
      <Compile Include="Assets\Plugins\uniTUIOCE\utilities\BBTouchManagerStarter.cs" />
      <Compile Include="Assets\Standard Assets\Image Effects (Pro Only)\SSAOEffect.cs" />
+     <None Include="Assets\newtest_pkarlsson.txt.txt" />
      <None Include="Assets\iPhone Standard Assets\Additive-Projector\Guidelines.txt" />
      <None Include="Assets\iPhone Standard Assets\iPhone Shaders\Particle Shaders\iPhone Multiply Culled.shader" />
      <None Include="Assets\iPhone Standard Assets\iPhone Shaders\iPhone Background.shader" />

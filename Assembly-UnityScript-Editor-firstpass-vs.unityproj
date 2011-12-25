@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\iPhone Standard Assets\Editor\ExportResource.js" />
+     <None Include="Assets\newtest_pkarlsson.txt.txt" />
      <None Include="Assets\iPhone Standard Assets\Additive-Projector\Guidelines.txt" />
      <None Include="Assets\iPhone Standard Assets\iPhone Shaders\Particle Shaders\iPhone Multiply Culled.shader" />
      <None Include="Assets\iPhone Standard Assets\iPhone Shaders\iPhone Background.shader" />
