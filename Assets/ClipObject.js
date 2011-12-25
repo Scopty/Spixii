@@ -10,5 +10,5 @@ function OnRenderObject() {
 	var scale = 1.0; // / (clipFar-clipNear);
 	var scaleOffset = Matrix4x4.TRS( Vector3(-clipNear,0,0), Quaternion.identity, Vector3(scale,scale,scale));
 	Shader.SetGlobalMatrix("_ClipTextureMatrix", transform.worldToLocalMatrix * scaleOffset);
-	//
+	////
 }
