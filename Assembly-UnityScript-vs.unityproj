@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>9.0.21022</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{B3910AF0-8B3F-CDB7-FFB0-E20D7F7F20DE}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_4_0;UNITY_3_4;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\ClipObject.js" />
+     <Compile Include="Assets\MoveIt.js" />
+     <Compile Include="Assets\clipPlane.js" />
+     <None Include="Assets\newtest_pkarlsson.txt.txt" />
+     <None Include="Assets\iPhone Standard Assets\Additive-Projector\Guidelines.txt" />
+     <None Include="Assets\iPhone Standard Assets\iPhone Shaders\Particle Shaders\iPhone Multiply Culled.shader" />
+     <None Include="Assets\iPhone Standard Assets\iPhone Shaders\iPhone Background.shader" />
+     <None Include="Assets\iPhone Standard Assets\iPhone Shaders\Vertex Colored Shaders\iPhone Transparent Vertex Color.shader" />
+     <None Include="Assets\VertexLitClip.shader" />
+     <None Include="Assets\Shaders\Planet.shader" />
+     <None Include="Assets\iPhone Standard Assets\Water\Guidelines.txt" />
+     <None Include="Assets\iPhone Standard Assets\iPhone Shaders\iPhone Detail.shader" />
+     <None Include="Assets\iPhone Standard Assets\Additive-Projector\Additive.shader" />
+     <None Include="Assets\iPhone Standard Assets\Water\DepthMask.shader" />
+     <None Include="Assets\Shaders\ColorMask 0.shader" />
+     <None Include="Assets\Skin Shaders\SkinDiffuse.shader" />
+     <None Include="Assets\Shaders\Diffuse+.shader" />
+     <None Include="Assets\Shaders\Insanity.shader" />
+     <None Include="Assets\Skin Shaders\SkinSpecular.shader" />
+     <None Include="Assets\Shaders\NewShader.shader" />
+     <None Include="Assets\Shaders\Blend 2 Textures.shader" />
+     <None Include="Assets\Shaders\Normal-Glossy.shader" />
+     <None Include="Assets\Shaders\Masked Specular.shader" />
+     <None Include="Assets\Shaders\Vertex Lit with Z.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\clipPlane.shader" />
+     <None Include="Assets\Shaders\TerrainReplacement.shader" />
+     <None Include="Assets\iPhone Standard Assets\iPhone Shaders\Lightmap Shaders\iPhone Lightmap Reflective.shader" />
+     <None Include="Assets\iPhone Standard Assets\iPhone Shaders\Particle Shaders\iPhone Particles Additive Culled.shader" />
+     <None Include="Assets\Shaders\Mat Cap Bumped.shader" />
+     <None Include="Assets\iPhone Standard Assets\Blob-Shadow\Guidelines.txt" />
+     <None Include="Assets\Shaders\Camera-DepthNormalTexture.shader" />
+     <None Include="Assets\iPhone Standard Assets\iPhone Shaders\Vertex Colored Shaders\iPhone Vertex Colored.shader" />
+     <None Include="Assets\iPhone Standard Assets\iPhone Shaders\Lightmap Shaders\iPhone Lightmap Only.shader" />
+     <None Include="Assets\iPhone Standard Assets\iPhone Shaders\Lightmap Shaders\iPhone Lightmap AlphaTest.shader" />
+     <None Include="Assets\Skin Shaders\skinhelpers.cginc" />
+     <None Include="Assets\Shaders\TerrainReplacement(additive).shader" />
+     <None Include="Assets\Shaders\Overlay.shader" />
+     <None Include="Assets\iPhone Standard Assets\iPhone Shaders\Self Illumination\iPhone Self Illuminated.shader" />
+     <None Include="Assets\Skin Shaders\SkinBumped.shader" />
+     <None Include="Assets\Shaders\BumpMap.shader" />
+     <None Include="Assets\Shaders\Mask.shader" />
+     <None Include="Assets\iPhone Standard Assets\Blob-Shadow\ProjectorMultiply.shader" />
+     <None Include="Assets\Shaders\Bumped Specular Rimlight.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{7F2E48EF-3F62-B3E6-0C0A-50004C4B560B}</Project>
+      <Name>Assembly-CSharp-firstpass-vs</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
+	

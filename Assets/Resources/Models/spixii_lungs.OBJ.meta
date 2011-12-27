@@ -1,0 +1,44 @@
+fileFormatVersion: 1
+guid: ceb6b5154c60b254b82b60852430a423
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 1
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 1
+    tangentImportMode: 1
+    smoothingAngle: 180
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    //RootNode:
+    - 100000
+    - 400000
+    - 11100000
+    Group1:
+    - 100002
+    - 400002
+    - 3300000
+    - 2300000
+    Group26632:
+    - 100004
+    - 400004
+    - 3300002
+    - 2300002
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: Group26632
+    4300002: Group56991
+    4300004: Group1

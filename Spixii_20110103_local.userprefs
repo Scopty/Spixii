@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ctype="Workspace" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Plugins\uniTUIOCE\touch testing\BBStatusGUIText.cs" ctype="Workbench">
+    <Files>
+      <File FileName="Assets\iPhone Standard Assets\Scripts\Joystick.js" Line="119" Column="32" />
+      <File FileName="Assets\iPhone Standard Assets\Scripts\TapControl.js" Line="228" Column="35" />
+      <File FileName="Assets\Plugins\uniTUIOCE\iPhoneInput fakery\BBTouchEvent.cs" Line="4" Column="8" />
+      <File FileName="Assets\Plugins\uniTUIOCE\touch testing\BBStatusGUIText.cs" Line="15" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches ctype="PinnedWatchStore" />
+</Properties>
