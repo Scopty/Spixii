@@ -13,6 +13,7 @@
 #Library/previews
 #Library/guidmapper
 Library/*
+
 Temp
 *.csproj
 *.pidb
