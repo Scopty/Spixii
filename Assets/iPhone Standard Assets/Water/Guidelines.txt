@@ -1,0 +1,10 @@
+To use the iPhone RenderWater script:
+1. Attach iPhoneWater script to water plane.
+2. Make sure your main camera is tagged as MainCamera.
+3. Hit Play and you should see reflections now!
+
+NOTE: Your water surface must be flat. For best results, you may want to leave a hole
+in your mesh and position a Plane primitive to that location instead. Your plane 
+texture must be alpha blended for this to work. You are allowed to have more than 
+one pool of water, however, those pools must be on the same virtual plane (they
+must be level with each other).
