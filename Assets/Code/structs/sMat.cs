@@ -12,7 +12,7 @@ using System;
 
 namespace Application
 {
-	public struct sMat
+	public class sMat
 	{
 	}
 }

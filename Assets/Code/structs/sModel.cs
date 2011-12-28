@@ -16,7 +16,7 @@ using System;
 
 namespace Application
 {
-	public struct sModel
+	public class sModel
 	{
 	}
 }
