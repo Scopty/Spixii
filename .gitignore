@@ -13,6 +13,8 @@
 #Library/previews
 #Library/guidmapper
 Library/*
+!*.asset
+!*.cs
 
 Temp
 *.csproj
@@ -27,5 +29,7 @@ build
 *.psd
 *.obj
 *.jas
+*.tga
+*.bmp
 
 *.unityproj
