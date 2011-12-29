@@ -4,7 +4,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
 
-public class OBJ : GameObject {
+public class OBJ : MonoBehaviour {
+	
+	public string objPath;
 	
 	/* OBJ file tags */
 	private const string O 	= "o";
@@ -31,12 +33,10 @@ public class OBJ : GameObject {
 	private string mtllib;
 	private GeometryBuffer buffer;
 
-	public OBJ():base("OBJ") {
-		buffer = new GeometryBuffer();
-	}
-	
-	public OBJ(string name):base(name) {
-		buffer = new GeometryBuffer();
+	void Start ()
+	{
+		buffer = new GeometryBuffer ();
+		StartCoroutine (Load (objPath));
 	}
 	
 	public IEnumerator Load(string path) {
@@ -44,12 +44,12 @@ public class OBJ : GameObject {
 		
 		WWW loader = new WWW(path);
 		yield return loader;
-		SetGeometryData(loader.data);
+		SetGeometryData(loader.text);
 		
 		if(hasMaterials) {
 			loader = new WWW(basepath + mtllib);
 			yield return loader;
-			SetMaterialData(loader.data);
+			SetMaterialData(loader.text);
 			
 			foreach(MaterialData m in materialData) {
 				if(m.diffuseTexPath != null) {
@@ -220,8 +220,8 @@ public class OBJ : GameObject {
 		GameObject[] ms = new GameObject[buffer.numObjects];
 		
 		if(buffer.numObjects == 1) {
-			AddComponent(typeof(MeshFilter));
-			AddComponent(typeof(MeshRenderer));
+			gameObject.AddComponent(typeof(MeshFilter));
+			gameObject.AddComponent(typeof(MeshRenderer));
 			ms[0] = gameObject;
 		} else if(buffer.numObjects > 1) {
 			for(int i = 0; i < buffer.numObjects; i++) {
