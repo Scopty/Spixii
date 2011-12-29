@@ -8,12 +8,8 @@
  * 
  */
 
-using System;
+using System.Collections;
 
-namespace Application
-{
-	public class sMat
-	{
-	}
+public class sMat {
 }
 

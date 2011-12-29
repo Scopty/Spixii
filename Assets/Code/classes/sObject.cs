@@ -1,30 +1,28 @@
 /*	sObject.cs
  * 
- * 	struct for information related to an indiviudal .obj file
+ * 	Class for a .obj+.mtl file loaded as gameObject with additional info
  * 	includes:
- * 		- OBJ struct (external function) with ids for individual meshes
- * 		- MAT struct with .mtl/.mat for .obj
- * 		- id for .obj in database
- * 		- parent .obj (null if outermost parent)
- * 		- layerClass for .obj (e.g. skin, skeleton, organ system)
- * 
+ * 		- OBJ class (external function), instatiates a OBJ gameObject with materials 
+ * 		- id for loaded .obj/.mtl in database
+ * 		- parent of loaded .obj/.mtl (null if outermost parent)
+ * 		- layerClass for .obj/.mtl (e.g. skin, skeleton, organ system)
+ * 		- coords array 2 dim for positions with info/media content from db,
+ * 			structured as [infoID,x,y,z]
  * 	Detailed description goes here
  * 
  * 
  * 
  */
 
-using System;
+using UnityEngine;
+using System.Collections;
 
-namespace Application
-{
-	public class sObject
-	{
-		public	OBJ OBJ
-		public	sMaterial MAT
-		public	int id
-		public	int parentId
-		public	string layerClass
-	}
+public class sObject {
+		private OBJ obj = new OBJ();
+		private	int id;
+		private	int parent;
+		private	string layerClass;
+		private double[,] coords;
 }
+
 
